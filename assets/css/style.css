@@ -300,11 +300,18 @@ input[type=submit] {
    padding-bottom: 3%;
  }
 
- nav a {
-
- }
-
  .main-section {
    margin-top: 10%;
+ }
+
+ .auth-image {
+   width: 100%;
+   float: none;
+ }
+
+ /* Portfolio */
+
+ .work {
+   width: 100%;
  }
 }
