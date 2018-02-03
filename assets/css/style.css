@@ -289,6 +289,22 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
+ #logo {
+   width: 100%;
+   margin:0;
+ }
 
+ nav {
+   position: relative;
+   width: 75%;
+   padding-bottom: 3%;
+ }
 
+ nav a {
+
+ }
+
+ .main-section {
+   margin-top: 10%;
+ }
 }
