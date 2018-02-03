@@ -1,65 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-    <head>
-    <meta charset="UTF-8">
-    <title>CONTACT ME</title>
 
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-   
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-    <body>
+<body>
 
-       <header id="masthead">
-        <div class="container">
-           <a href="index.html" id="logo">Jennifer Cuenca</a>
-           <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav> 
-        </div>
-       </header> 
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        <div id="content">
-                <div class="main">
-                    <h1>Contact Me Here</h1>
-                    <br>
-                    <p><form  action="mailto:jenncuenca@gmail.com" method="POST" enctype="text/plain">
-                            <input type="hidden" name="action" value="submit">
-                                Your name:<br>
-                            <input name="name" type="text" value="" size="30"/><br>
-                                Your email:<br>
-                            <input name="email" type="text" value="" size="30"/><br>
-                                Your message:<br>
-                            <textarea name="message" rows="7" cols="30"></textarea><br>
-                            <input type="submit" value="Send email"/>
-                        </form></p>
-        
-                </div>
-        </div>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-        <div id="sidebar">
-                <h2>Connect with Me</h2>
-            
-                <a target ="_blink"  href="https://github.com/jenncuenca">
-                    <img src="assets/img/social-media-icons/github.png" class="social" alt="github">
-                </a>
-    
-                <a target ="_blink" href="https://www.linkedin.com/in/jennifer-cuenca-5876737a/"> 
-                    <img src="assets/img/social-media-icons/linkedin.png" class="social" alt="linkedin">
-                </a>
-    
-                <a target ="_blink"  href="https://stackoverflow.com/users/9259710/jenncuenca?tab=profile">
-                    <img src="assets/img/social-media-icons/overflow.png" class="social" alt="stack overflow">
-                </a>
-            </div>
-            
-    <footer>
-            &copy; Copyright 2018 Jennifer Cuenca
-    </footer>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
+    </section>
 
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
-</html> 
+
+</html>
