@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 300px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -289,6 +289,15 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
+
+ #masthead {
+   position: static;
+ }
+
+ .main-section {
+   padding-top: 0;
+ }
+
  #logo {
    width: 100%;
    margin:0;
@@ -298,10 +307,6 @@ input[type=submit] {
    position: relative;
    width: 75%;
    padding-bottom: 3%;
- }
-
- .main-section {
-   margin-top: 10%;
  }
 
  .auth-image {
