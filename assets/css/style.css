@@ -294,7 +294,7 @@ input[type=submit] {
    position: static;
  }
 
- .main-section {
+ #main-container {
    padding-top: 0;
  }
 
